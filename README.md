@@ -3,7 +3,9 @@
 ## About
 This is my personal portfolio website created using HTML.
 
-## Features
+## Features 
+-index.html
+-style.css
 - Profile Picture
 - About Me Section
 - Skills Section
