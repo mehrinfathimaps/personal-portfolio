@@ -3,10 +3,14 @@
 ## About
 This is my personal portfolio website created using HTML.
 
-## Features 
+## About me
+Mehrin fathima ps
+First-year B.tech CSE(AI&ML) student
+
+## Features
 -index.html
 -style.css
-- Profile Picture
+-profile.jpg
 - About Me Section
 - Skills Section
 - Education Section
