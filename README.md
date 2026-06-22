@@ -1,28 +1,31 @@
 # Personal Portfolio
 
-## About
-This is my personal portfolio website created using HTML.
-
-## About me
-Mehrin fathima ps
-First-year B.tech CSE(AI&ML) student
+## Description
+This is my personal portfolio website created using HTML and CSS.
 
 ## Features
+- About Me section
+- Skills section
+- Projects section
+- Contact section
+
+## Technologies Used
+- HTML
+- CSS
+
+## Project Files
 -index.html
 -style.css
 -profile.jpg
-- About Me Section
-- Skills Section
-- Education Section
-- Contact Form
 
 ## Screenshots
 
-### Screenshot 1
-![Screenshot 1](screenshot1.png)
+### Portfolio Home Page
+![Screenshot 1](screenshot1.png.png)
 
-### Screenshot 2
-![Screenshot 2](screenshot2.png)
+### Portfolio Design
+![Screenshot 2](screenshot2.png.png)
 
 ## Author
 Mehrin Fathima
+
