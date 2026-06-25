@@ -1,122 +1,55 @@
-/* Body */
-body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f8;
-    color: #000000;
+body{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 1.5;
+  margin:25px;
 }
-
-/* Heading */
-h1 {
-    text-align: center;
-    margin-top: 20px;
+h1{
+    color:rgb(0, 0, 0);
+    text-align:center;
 }
+img{
+    width:200px;
+    border-radius:50%;
 
-/* Sections */
-section {
-    font-family:Georgia, 'Times New Roman', Times, serif
-    background : rgb(255, 255, 255);
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
 }
-
-/* About Section - Flexbox */
-.profile-section {
-    display: flex;
-    gap: 30px;
-    align-items: center;
-    padding: 20px;
+input,textarea{
+    padding:8px;
+    margin-top:5px;
 }
-
-/* Circular Profile Image */
-.profile-section img {
-    width: 65x;
-    height: 300px;
-    border-radius: 50%;
-    object-fit: cover;
+.about-section{
+    display:flex;
+    align-items:center;
+    gap:20px;
 }
-
-/* About Content */
-.about-content {
-    display: flex;
-    flex-direction: column;
+@media(max-width:768px){
+    .about-section{
+        flex-direction:column;
+        text-align:center;
+    }
 }
-
-.about-content h2 {
-    margin-bottom: 10px;
+.skills{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 10px;
 }
-
-.about-content p {
-    margin-top: 0;
-    line-height: 1.6;
+.education{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:10px;
 }
-
-/* Skills - CSS Grid */
-.skills {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
-    list-style: none;
-    padding: 0;
+h2{
+    color:#333;
 }
-
-.skills li {
-    background: #f2f2f2;
-    padding: 10px;
-    border-radius: 5px;
+form{
+    display:flex;
+    flex-direction:column;
+    width:300px
 }
-
-/* Form */
 input,
-textarea,
-button {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    box-sizing: border-box;
+textarea{
+    width:250px;
 }
-
-button {
-    cursor: pointer;
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-
-    .profile-section {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .profile-section img {
-        width: 200px;
-        height: 200px;
-    }
-
-    .skills {
-        grid-template-columns: 1fr;
-    }
-
-    h1 {
-        font-size: 30px;
-    }
-
-    h2 {
-        font-size: 22px;
-    }
-}
-
-/* Tablet */
-@media (min-width: 769px) and (max-width: 1024px) {
-
-    .profile-section img {
-        width: 250px;
-        height: 250px;
-    }
-
-    .skills {
-        grid-template-columns: repeat(2, 1fr);
-    }
+button{
+    padding:8px 15px;
+    margin-top:10px;
 }
